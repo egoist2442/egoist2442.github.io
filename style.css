@@ -14,7 +14,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding: 1px;
 }
 
 body {
@@ -194,8 +194,14 @@ h1 {
     gap: 20px;
     flex-wrap: wrap;
 }
+
+.faction-grid a {
+    text-decoration: none;
+}
+
 .card {
     flex: 1;
+    min-width: 300px;
     max-width: 300px;
     background: var(--color-bg-card);
     border: 1px solid var(--color-border);
