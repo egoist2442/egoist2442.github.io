@@ -93,6 +93,19 @@ body::before {
     width: 100%;
 }
 
+.bar p {
+    color: var(--color-text-muted);
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.bar a {
+    color: var(--color-text-muted);
+    font-size: 0.95rem;
+    line-height: 1.5;
+    text-decoration: none;
+}
+
 .hero {
     padding: 80px 5% 60px;
     text-align: center;
@@ -167,7 +180,7 @@ h1 {
 
 .main-content {
     padding: 40px 5%;
-    display: grid;
+    display: inline-block;
     grid-template-columns: 2fr 1fr;
     gap: 40px;
 }
