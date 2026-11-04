@@ -23,6 +23,11 @@ body {
     color: var(--color-text-primary);
     line-height: 1.6;
     overflow-x: hidden;
+
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+    min-height: 100vh;
+    margin: 0;
 }
 
 /*Эффект шума на фоне*/
@@ -322,8 +327,6 @@ body::before {
 }
 
 .footer {
-    position: fixed;
-    bottom: 0; left: 0; right: 0;
     background: #000000;
     color: var(--color-text-muted);
     text-align: center;
